@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/send" method="post">
+        <div>
+            <div>
+                <label for="to">to:</label>
+                <input type="text" name="mailto">
+            </div>
+            <br>
+            <div>
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject">
+            </div>
+            <br>
+            <label for="mail">Write your mail here:</label>
+            <div>
+                <textarea name="mailtext" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Send Mail</button>
+        </div>
+    </form>
+</body>
+</html>
